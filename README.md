@@ -1,5 +1,5 @@
 # PhotoSelect
-一个仿qq 简易图片选择器
+一个仿qq 简易图片选择器 支持图片预览 放大缩小
 
 
 使用recyclerview 设计的一个图片列表 
@@ -36,4 +36,8 @@
 type=1 为单选  type=2为多选
 
 详情请参考demo
-
+效果图如下：
+![image](https://github.com/a479889183/PhotoSelect/blob/master/image1.png )
+![image](https://github.com/a479889183/PhotoSelect/blob/master/image2.png ) 
+![image](https://github.com/a479889183/PhotoSelect/blob/master/image3.png ) 
+![image](https://github.com/a479889183/PhotoSelect/blob/master/image4.png ) 
