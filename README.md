@@ -36,8 +36,9 @@
 type=1 为单选  type=2为多选
 
 详情请参考demo
-效果图如下：
-![image](https://github.com/a479889183/PhotoSelect/blob/master/image1.png )
-![image](https://github.com/a479889183/PhotoSelect/blob/master/image2.png ) 
-![image](https://github.com/a479889183/PhotoSelect/blob/master/image3.png ) 
-![image](https://github.com/a479889183/PhotoSelect/blob/master/image4.png ) 
+#效果图如下：
+<br>
+#![image](https://github.com/a479889183/PhotoSelect/blob/master/image1.png )
+#![image](https://github.com/a479889183/PhotoSelect/blob/master/image2.png ) 
+#![image](https://github.com/a479889183/PhotoSelect/blob/master/image3.png ) 
+#![image](https://github.com/a479889183/PhotoSelect/blob/master/image4.png ) 
