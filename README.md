@@ -8,17 +8,20 @@
 
 使用方法：
 
-导入依赖库 photoselectorlibrary
+#导入依赖库 photoselectorlibrary
 
-使用 startActivityForResult启动图片选择器
+#或者直接使用 compile 'com.px:photoselector:1.0.0'
+#建议使用第二种方法 具体使用请参考以下介绍
 
- Intent it = new Intent(MainActivity.this, ImageSelectorListActivity.class);
+#使用 startActivityForResult启动图片选择器
+
+ #Intent it = new Intent(MainActivity.this, ImageSelectorListActivity.class);
                 it.putExtra("type", 1);
                 startActivityForResult(it, ImageSelectorListActivity.RESULT_OK);
                 
-  通过回调函数 接收返回的图片路径 
-     @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+ # 通过回调函数 接收返回的图片路径 
+  #   @Override
+  #  protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
         if (requestCode == ImageSelectorListActivity.RESULT_OK) {
